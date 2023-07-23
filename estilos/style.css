@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+
+body {
+    background: rgba(94, 47, 13, 0.911) url(../imagens/fundo-madeira.jpg) center top no-repeat fixed;
+    background-size: cover; 
+    position: relative;
+}
+
+#iphone {
+    position: absolute;
+    height: 627px;
+    width: 311px;
+    background-image: url(../imagens/frame-iph
+    png);
+    background-repeat: no-repeat;
+    background-attachment: cover;;
+    left: 50%;
+    transform: translate(-50%, 25%);
+}
+
+main#principal {
+    
+    
+}
+
+main > img {
+    
+}
+
+aside img {
+    background-position: left top;
+}
