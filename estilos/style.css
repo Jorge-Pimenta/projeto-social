@@ -34,44 +34,54 @@ body {
     
 }
 
+
+
 div.icon {
     display: block;
     margin-top: 30px;
     height: 70px;
     width: 70px;
     border-radius: 50%;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.473);
+    box-shadow: -3px 5px 6px rgba(0, 0, 0, 0.365);
+    background-size: cover;
+}
+
+div:hover {
+    transform: translate(8px, -8px);
+    box-shadow: -11px 13px 6px rgba(0, 0, 0, 0.365);
+    transition: 0.4s;
+    border: 1px solid white;
 }
 
 div#home{
     
     background-image: url(../imagens/logo-home.jpg);
-    background-size: cover;
+    
     
     
 }
 div#youtube{
     background-image: url(../imagens/logo-youtube.jpg);
-    background-size: cover;
+    
     
 }
 div#github{
     background-image: url(../imagens/logo-github.jpg);
-    background-size: cover;
+    
     
 }
 div#instagram{
     background-image: url(../imagens/logo-instagram.jpg);
-    background-size: cover;
+    
     
 }
 div#twitter{
     background-image: url(../imagens/logo-twitter.jpg);
-    background-size: cover;
+    
     
 }
 div#facebook{
     background-image: url(../imagens/logo-facebook.jpg);
-    background-size: cover;
+    
     
 }
